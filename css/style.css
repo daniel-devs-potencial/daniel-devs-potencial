@@ -1,0 +1,186 @@
+ * {
+margin: 0;
+padding: 0;
+font-family: 'Oswald', sans-serif;
+box-sizing: border-box;
+
+ }
+
+  wropper {
+width: 100vh;
+height: 100vw;
+
+  }
+
+
+.container-left {
+display: inline-block;
+width: 60%;
+padding-left: 100px;
+ 
+margin-top: 13%;
+}
+
+.container-right {
+display: inline-block;
+background-color: rgba(93, 93, 125, 0.16);
+height: 100vh;
+width: 40%;
+position: absolute;
+padding: 2%;
+ 
+}
+img {
+position: relative; margin-top: 90px;
+right: 130px;
+width:360px;
+height: 420px;
+ 
+
+
+ 
+
+
+}
+h1 {
+  top: 60%;
+    font-size: 60px;
+    line-height: 80px;
+    width: 368px;
+     
+}
+
+p {
+     
+    font-size: 28px;
+    line-height: 48px;
+    color: #5d5d70;
+    opacity: 0.6;
+    margin: 15px 0;
+    width: 540px;
+    
+}
+ .botton {
+
+background-color: #9499EA;
+border-radius: 20.5px;
+width: 200px;
+height: 41px;
+border: none;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+color:#ffffff;
+text-align: center;
+cursor: pointer;
+width: 269;
+height: 62;
+ }
+
+ botton:hover {
+   opacity: .8;
+ }
+
+  botton:active {
+   opacity: 0.5;
+ }
+
+ a {
+   
+   font-size: 24px;
+   line-height: 41px;
+   margin-left: 36px;
+   color: #5d5d70;
+   cursor: pointer;
+   padding-left: 20px;
+
+    
+ }
+
+
+
+a:hover {
+  opacity: 0.4;
+}
+
+
+a:active {
+opacity: 0.8;
+}
+
+a:nth-child(2) {
+
+   opacity: 0.4;
+}
+
+
+  
+
+
+ @media screen and (max-width:905px){ 
+.container-left {
+ 
+width: 100%;
+height:50vh;
+padding: 0;
+margin: 0;
+}
+
+ .container-right {
+display:  block;
+  height: auto;
+  width:100%;
+  position: static;
+  padding: 40px;
+
+}
+
+
+img {
+position: static;
+ max-width: 90%;
+}
+
+   header {
+   display: none;
+  }
+
+  
+h1 {
+  
+  font-size: 36px;
+  line-height: 52px;
+  width: auto;
+  margin: 58px 50px 0 50px;
+  text-align: center;
+
+
+}
+
+p {
+
+  margin: 25px 40px;
+  width: auto;
+  text-align: center;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.botton {
+margin: 0 auto;
+display: block;
+margin:auto;   
+ 
+ } 
+
+}
+
+@media screen and (max-width:330){ 
+.container-left {
+ 
+  
+height:70%;
+ 
+}
+
+}

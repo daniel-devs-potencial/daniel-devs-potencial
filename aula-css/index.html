@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro projeto</title>
+    <!__ O caminho herf deve apontar para a pasta e o arquivo >
+    <link rel="Stylesheet" href="./css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    </head>
+   <body > 
+    <header>
+
+      <a class="link-header">Home</a>
+      <a class="link-header">About</a>
+      <a class="link-header">Product</a>
+      <a class="link-header">service</a>
+      <a class="link-header">Contact</a>
+      <button class="button-header">Login</button>
+
+      </header>
+ 
+<table class="tabela-estilizada">
+   
+<tr>
+ <th ><div id="relogio"> <  00:00:00></div></th> 
+ </tr>
+</table>
+
+ 
+ 
+ <script>
+      function atualizarRelogio() {
+        const agora = new Date();
+        const hora = agora.toLocaleTimeString('pt-BR');
+        document.getElementById('relogio').textContent = hora;
+      }
+//chama a função imediatamente e depois a cada 1000ms
+atualizarRelogio();
+setInterval(atualizarRelogio, 1000);
+</script>
+
+
+    
+   
+ 
+ <main >
+<img src="./img/img-projeto.png" alt="coverage-location-logo" class="logo-image">
+
+<section>
+
+<h1 > We care</h1>
+
+<h2>About Your Pet</h2>
+
+<p>Loren ipsun, dolor sit amet consecteturad cing elite aenean a justo quis mauris hendri pellintesque eget at ipsumuis cursusturpi.</p>
+
+<button class="button-main">Explore</button>
+
+</section>
+
+  </main>
+
+</body>
+
+</html>
+
